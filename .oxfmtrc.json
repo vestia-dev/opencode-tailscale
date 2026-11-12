@@ -1,0 +1,7 @@
+{
+  "ignorePatterns": ["dist/**", "package-lock.json"],
+  "semi": false,
+  "printWidth": 100,
+  "singleQuote": false,
+  "trailingComma": "all"
+}

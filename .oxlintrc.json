@@ -1,0 +1,7 @@
+{
+  "$schema": "./node_modules/@effect/tsgo/oxlint-schema.json",
+  "extends": ["./node_modules/@effect/tsgo/oxlint-presets/recommended.json"],
+  "categories": { "correctness": "error", "suspicious": "error" },
+  "rules": { "eslint/no-underscore-dangle": ["error", { "allow": ["_type", "_key"] }] },
+  "ignorePatterns": ["node_modules/**", "dist/**"]
+}

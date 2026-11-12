@@ -1,0 +1,93 @@
+.settings-nav [data-slot="tabs-v2-trigger"][data-value$="tailscale"] [data-slot="icon-svg"] {
+  background-color: currentColor;
+  mask: url("./tailscale.svg?inline") center / contain no-repeat;
+}
+
+.settings-nav [data-slot="tabs-v2-trigger"][data-value$="tailscale"] [data-slot="icon-svg"] > * {
+  display: none;
+}
+
+.opencode-tailscale-section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.opencode-tailscale-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  max-width: min(32rem, 65vw);
+  overflow-wrap: anywhere;
+  text-align: end;
+}
+
+.opencode-tailscale-detail-secondary {
+  color: var(--v2-text-text-muted, var(--text-weak));
+}
+
+.opencode-tailscale-url {
+  font-family: var(--font-family-mono);
+}
+
+.opencode-tailscale-proxy-empty {
+  text-align: center;
+}
+
+.opencode-tailscale-proxy-route {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding-block: 16px;
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+
+[data-component="dialog-v2"] [data-slot="dialog-container"]:has(.opencode-tailscale-pairing) {
+  width: min(400px, calc(100vw - 32px));
+}
+
+.opencode-tailscale-pairing {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.opencode-tailscale-qr {
+  box-sizing: border-box;
+  aspect-ratio: 1;
+  width: 100%;
+  border-radius: 6px;
+  background: var(--v2-background-bg-base, var(--background-base));
+  padding: 24px;
+  color: var(--v2-text-text-base, var(--text-base));
+}
+
+.opencode-tailscale-qr > svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.opencode-tailscale-pairing-footer {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 8px;
+}
+
+.opencode-tailscale-expiry {
+  flex: 1;
+  font-size: 13px;
+  line-height: var(--line-height-compact, 16px);
+  color: var(--v2-text-text-muted, var(--text-weak));
+}
+
+.opencode-tailscale-error {
+  color: var(--v2-state-fg-danger, var(--text-danger-base));
+  font-size: 13px;
+  line-height: var(--line-height-base, 20px);
+  white-space: pre-wrap;
+}

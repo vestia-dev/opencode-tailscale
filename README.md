@@ -1,6 +1,7 @@
 # opencode-tailscale
 
-Planned OpenCode Desktop plugin providing Tailscale settings and QR-code pairing
-for the OpenCode mobile app.
+Connect to OpenCode through Tailscale from OpenCode Desktop.
 
-This is a placeholder release. No plugin functionality is implemented yet.
+- View your Tailscale connection status and device details.
+- View and create private Tailscale Serve proxies to your OpenCode server.
+- Pair the OpenCode mobile app using a QR code or pairing link.
