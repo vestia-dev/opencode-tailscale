@@ -1,6 +1,6 @@
 {
   "name": "opencode-tailscale",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Tailscale settings and mobile pairing for OpenCode Desktop.",
   "homepage": "https://github.com/vestia-dev/opencode-tailscale#readme",
   "bugs": {
