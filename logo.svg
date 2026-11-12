@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="576" height="216" viewBox="0 0 576 216" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">OpenCode × Tailscale</title>
+  <desc id="desc">OpenCode and Tailscale symbols separated by a multiplication sign. For light backgrounds.</desc>
+  <g transform="translate(96 48)">
+    <path d="M72 96H24V48H72V96Z" fill="#1F1F1F" fill-opacity=".2"/>
+    <path d="M72 24H24V96H72V24ZM96 120H0V0H96V120Z" fill="#1F1F1F" fill-rule="evenodd"/>
+  </g>
+  <path d="M267 96L276 105L285 96L288 99L279 108L288 117L285 120L276 111L267 120L264 117L273 108L264 99Z" fill="#1F1F1F" fill-opacity=".5"/>
+  <g fill="#1E1E1F">
+    <g fill-opacity=".4">
+      <circle cx="375" cy="63" r="15"/>
+      <circle cx="420" cy="63" r="15"/>
+      <circle cx="465" cy="63" r="15"/>
+      <circle cx="375" cy="153" r="15"/>
+      <circle cx="465" cy="153" r="15"/>
+    </g>
+    <circle cx="375" cy="108" r="15"/>
+    <circle cx="420" cy="108" r="15"/>
+    <circle cx="465" cy="108" r="15"/>
+    <circle cx="420" cy="153" r="15"/>
+  </g>
+</svg>
