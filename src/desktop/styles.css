@@ -1,9 +1,11 @@
-.settings-nav [data-slot="tabs-v2-trigger"][data-value$="tailscale"] [data-slot="icon-svg"] {
+.settings-nav [data-slot="tabs-v2-trigger"][data-value$="tailscale"] [data-slot="icon-svg"],
+.settings-mobile-menu [data-slot="icon-svg"]:has(> use[href="#opencode-v2-icon-dot-grid"]) {
   background-color: currentColor;
   mask: url("./tailscale.svg?inline") center / contain no-repeat;
 }
 
-.settings-nav [data-slot="tabs-v2-trigger"][data-value$="tailscale"] [data-slot="icon-svg"] > * {
+.settings-nav [data-slot="tabs-v2-trigger"][data-value$="tailscale"] [data-slot="icon-svg"] > *,
+.settings-mobile-menu [data-slot="icon-svg"] > use[href="#opencode-v2-icon-dot-grid"] {
   display: none;
 }
 

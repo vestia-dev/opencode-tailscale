@@ -14,7 +14,7 @@ export default Plugin.define({
       get title() {
         return ctx.t("title")
       },
-      icon: "server",
+      icon: "dot-grid",
       get entries() {
         return [
           {
