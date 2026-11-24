@@ -22,9 +22,9 @@ export function CreateProxyDialog(props: {
   const desktop = ctx.main(TailscaleDesktop)
   const controller = new AbortController()
   const signal = AbortSignal.any([controller.signal, ctx.signal])
-  const defaultPort = () => new URL(props.serverAddress).port || "80"
+  const defaultPort = "4097"
   const [state, setState] = createStore({
-    port: defaultPort(),
+    port: defaultPort,
     changePort: false,
     creating: false,
     error: "",
@@ -77,7 +77,7 @@ export function CreateProxyDialog(props: {
             hideLabel
             checked={state.changePort}
             disabled={state.creating}
-            onChange={(changePort) => setState({ changePort, port: defaultPort(), error: "" })}
+            onChange={(changePort) => setState({ changePort, port: defaultPort, error: "" })}
           />
         </div>
         <Show when={state.changePort}>
