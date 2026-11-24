@@ -1,6 +1,6 @@
 {
   "name": "opencode-tailscale",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Tailscale settings and mobile pairing for OpenCode Desktop.",
   "keywords": [
     "opencode-plugin"
